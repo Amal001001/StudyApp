@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvguess"
+        android:layout_width="305dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="192dp"
+        android:background="#00F4B786"
+        android:text="MOBILE - ANDROID BASICS"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kbutton"
+        android:layout_width="286dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="64dp"
+        android:text="Kotlin Fundamentals"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/purple_200"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvguess" />
+
+    <Button
+        android:id="@+id/abutton"
+        android:layout_width="286dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:text="Android Fundamentals"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kbutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
